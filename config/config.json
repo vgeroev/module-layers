@@ -1,0 +1,18 @@
+{
+  "main": {
+    "main_class": "org.vmalibu.m.one.Main",
+    "module_name": "org.vmalibu.m.one",
+    "layer_id": "m-1"
+  },
+  "layers": [
+    {
+      "id": "m-1",
+      "inject_lifecycle_handler": true,
+      "parent_ids": [ ]
+    },
+    {
+      "id": "m-1-1",
+      "parent_ids": [ "m-1" ]
+    }
+  ]
+}
